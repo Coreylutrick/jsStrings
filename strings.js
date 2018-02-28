@@ -30,3 +30,12 @@ var yarn = "the better string";
 var domString = "<h4>" + yarn + "</h4>";
 var myDiv = document.getElementById("basket");
 myDiv.innerHTML = domString;
+
+//Challenge 5
+var str = "IBMWLOVEbmcatsbmw";
+var newStr = str.replace(/b|m|w/gi, "");
+//document.write("<h1>" + newStr + "</h1>");
+
+var catString = "<h1>" + newStr + "</h1>";
+var fancyDiv = document.getElementById("fancy");
+fancyDiv.innerHTML = catString;
